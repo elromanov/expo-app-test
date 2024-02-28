@@ -8,7 +8,6 @@ import OrderListItem from '@/src/components/OrderListItem';
 export default function OrderScreen() {
   return (
     <View>
-        <Stack.Screen options={{title: "Orders"}}/>
         <FlatList 
             data={orders}
             contentContainerStyle={{gap: 10, padding: 10}}
